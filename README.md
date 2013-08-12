@@ -39,3 +39,9 @@ Usage
 	                0 will disable copy to clipboard
 	                1 will enable copy to clipboard
 	-h, --help      this help message
+
+Passwordfile format
+===================
+The format in your password file will look like this
+
+	#Name  ;Username  ;Password  ;Sitetype;Sitelink  ;;;;
