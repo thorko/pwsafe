@@ -8,11 +8,11 @@ file after an update.
 
 Prerequisite
 ============
-   File::Grep
-   Clipboard
-   Term::ReadKey
-   Config::Simple
-   File::Basename
+	File::Grep
+	Clipboard
+	Term::ReadKey
+	Config::Simple
+	File::Basename
 
 
 Configuration
@@ -30,12 +30,12 @@ Configfile: ~/.pwsafe.conf
 
 Usage
 =====
-pwsafe.pl [-c <config>] -o <option> [-l <lookup pattern>] [-d] [-h] [-t <0|1>]
-
--c, --config    config file to use
--o, --option    option can be "edit", "get", "add", "delete"a
--l, --lookup    pattern to search in the password database
--t, --toclip    0 or 1 
-                0 will disable copy to clipboard
-                1 will enable copy to clipboard
--h, --help      this help message
+	pwsafe.pl [-c <config>] -o <option> [-l <lookup pattern>] [-d] [-h] [-t <0|1>]
+	
+	-c, --config    config file to use
+	-o, --option    option can be "edit", "get", "add", "delete"a
+	-l, --lookup    pattern to search in the password database
+	-t, --toclip    0 or 1 
+	                0 will disable copy to clipboard
+	                1 will enable copy to clipboard
+	-h, --help      this help message
