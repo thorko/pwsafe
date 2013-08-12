@@ -19,6 +19,7 @@ Configuration
 =============
 Configfile: ~/.pwsafe.conf
 
+<code>
 [file]
 pwfile = "~/.passwords"
 cipher = "AES256"
@@ -27,6 +28,7 @@ cipher = "AES256"
 toclip = 1
 debug = 0
 usegit = 0
+</code>
 
 Usage
 =====
