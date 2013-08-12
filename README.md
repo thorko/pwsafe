@@ -19,16 +19,14 @@ Configuration
 =============
 Configfile: ~/.pwsafe.conf
 
-<code>
-[file]
-pwfile = "~/.passwords"
-cipher = "AES256"
-
-[options]
-toclip = 1
-debug = 0
-usegit = 0
-</code>
+	[file]
+	pwfile = "~/.passwords"
+	cipher = "AES256"
+	
+	[options]
+	toclip = 1
+	debug = 0
+	usegit = 0
 
 Usage
 =====
