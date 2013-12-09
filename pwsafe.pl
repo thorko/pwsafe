@@ -92,6 +92,7 @@ sub get {
 	foreach (@match) {
 		foreach my $i (keys $_->{'matches'}) {
 			my ($name,$username,$password,$sitetype,$notes) = (split(/;/, $_->{'matches'}{$i}));
+      $notes = defined($notes) ? $notes : "";
 			if ( !$cfg{'toclip'} ) {
 				print "Name: $name\nUsername: $username\nPassword: $password\n$notes\n";
 			} else {
